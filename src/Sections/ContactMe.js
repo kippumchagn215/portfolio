@@ -8,7 +8,7 @@ export default function ContactMe(){
     }
     return(
         <div class="">
-            <h1 class="Header">Contact Me</h1>
+            <h1 class="Header" id="contact">Contact Me</h1>
             <ContactForm></ContactForm>
             <ContactCard></ContactCard>
         </div>

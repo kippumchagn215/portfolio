@@ -1,8 +1,8 @@
 const projectLists = [
     {   name:"Hotel for Dogs (Personal Project 2020)",
         explanation:"Made With: Html, CSS, JS, Bootstrap, React.js, Node.js and MongoDB \n"+
-        "Includes features such as login, creating accounts, pricing, checkout and your bookings pages \n" + 
-        "To provide the features listed above Frontend(React) interacts with Backend(Node.js) that is connected with database(mongoDB) to store and fetch corresponding information based on the user's request. Also in storing process to protect users private information hashing and salting for encryption is used",
+        "Includes features such as login, creating accounts, pricing, checkout, and your bookings pages \n" + 
+        "To provide the features listed above Frontend(React) interacts with Backend(Node.js) that is connected with database(MongoDB) to store and fetch corresponding information based on the user's request. Also in storing process to protect users private information hashing and salting for encryption is used",
         code:"https://github.com/kippumchagn215/doghotelfront",
         demo:"https://www.youtube.com/watch?v=3pzvCKcfFSM",
         screenshots:[
@@ -48,8 +48,8 @@ const projectLists = [
         explanation:"Made With: Unity and C# \n"+
         "wrote and designed scripts in c# to implement  game rules of monopoly and constructed an environment that scripts and game objects can interact effectively with each other \n" + 
         "created game objects that are necessary for the game such as dice and tiles\n" +
-        "overall structure of the script: it has a basescript which works as the temporarily database system for the game which has a array of land class which stores all the information about each lands\n"+
-        "when the player rolls a dice, value of dice rolled, player number and the index of tile the players on will be sent to basescript. Inside basescript using index of the land that players is on as a key it will retrieve all the information about the land the player is on, just like hashmap where you plug in index as a key to retrieve values. Based on the information retrieved it displays or hide the user interface so that the user can take appropriate action. If user action changes the value of any attribute of the land, it will immediately reflect the change on tile by directly accessing the object\n",
+        "overall structure of the script: it has a base script which contains most logic to implement game rules and it also works as the temporary database system for the game which has an array of land class which stores all the information about each tile\n"+
+        "when the player rolls a dice, the value of dice rolled, player number and the index of tile the players on will be sent to base script from player script. Inside base script using the index of the land that players is on as a key, it will retrieve all the information about the land the player is on. Based on the information retrieved it displays or hides the user interface so that the user can take appropriate action. If user action changes the value of any attribute of the land, it will immediately reflect the change on tile by directly accessing the game object\n",
         code:"https://github.com/ujinikim/Unity-3D-monopoly",
         demo:"https://www.youtube.com/watch?v=TEdjsNa90Io",
         screenshots:[
@@ -83,9 +83,10 @@ const projectLists = [
     },
     {   name:"Tic-Tac-Toe A.I (Group Project 2021)",
         explanation:"Made With: Python \n" + 
-        "In order to generate a Tic-Tac-Toe A.I with the highest win rate and to compare Q-learning with Neural Network using Q-learning reinforcement machine learning algorithms, we have added a function to generate win rate graphs to find appropriate hyperparameter values such as exploration rate, exploitation rate and leaerning rate \n"+
-        "Added grid expansion feature, so that the user can play different type of games such as tic-tac-toe, connected 4, and connected 5(aka gomoku) \n"+ 
-        "Report about the comparsion between the two algorithms and whole summary of the project is included in report section on github",
+        "Created a Tic-Tac-Toe A.I that is capable of playing against human players using Q-learning\n" +
+        "In order to generate a Tic-Tac-Toe A.I with the highest win rate using Q-learning reinforcement algorithm, and to compare Q-learning with Neural Network, we have added a function to generate win rate graphs to find appropriate hyperparameter values such as exploration rate, exploitation rate, and learning rate \n"+
+        "Added grid expansion feature, so that the user can play different types of games such as tic-tac-toe, connected 4, and connected 5(aka Gomoku) \n"+ 
+        "Report about the comparison between the two algorithms and whole summary of the project is included in report section on Github",
         code:"https://github.com/ujinikim/ML-Tic-Tac-Toe",
         demo:"https://www.youtube.com/watch?v=U9jwxqbM0U8",
         report:"https://github.com/ujinikim/ML-Tic-Tac-Toe/blob/main/Project-Report.docx",

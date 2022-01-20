@@ -9,7 +9,7 @@ export default function WorkExp(){
         <p class="center"><b>Research.TX(app to share court cases)</b> - used <u>Angular.js,.Netcore</u> with <u>C#</u> and <u>MSsql</u> worked on improving a tool for admin </p>
 <p class="center">to solve the integration error between the company's application and case management system of each court.</p> 
 <p class="center"><b>Netsparker</b> - set up an environment to scan for vulnerabilities within a web application using Netsparker.</p> 
-<p class="center"><b>Webload</b>  - tracked all api calls made from the website using webload, created a script for load testing.</p>
+<p class="center"><b>Webload</b>  - tracked all API calls made from the website using webload, and created a script for load testing.</p>
 
         </div>
     );
