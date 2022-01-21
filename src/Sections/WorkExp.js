@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WorkExp(){
     return(
-        <div id="workexp" class="bg-gray padding-bottom">
+        <div id="workexp" class="padding-bottom white-text" style={{backgroundColor:"purple"}}>
         <h1 class="Header">Work Experience</h1>
         <h3 class="center">Software development intern at Tyler Technologies - (2021 May - 2021 August, 3 months)</h3>
         <br></br>
