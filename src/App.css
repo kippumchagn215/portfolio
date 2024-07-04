@@ -1,141 +1,146 @@
-.Navbar{
-    padding: 5px 100px 5px 100px !important;
+.Navbar {
+  padding: 5px 100px 5px 100px !important;
 }
-.NavbarHeader{
-    text-align: center;
-    font-family: 'Lobster', cursive;
+.NavbarHeader {
+  text-align: center;
+  font-family: "Lobster", cursive;
 }
-.Header{
-    margin-top: 4%;
-    padding: 3% 0 1% 0;
-    text-align: center;
-    font-family: 'Lobster', cursive;
+.Header {
+  margin-top: 4%;
+  padding: 3% 0 1% 0;
+  text-align: center;
+  font-family: "Lobster", cursive;
 }
 @media (max-width: 800px) {
-    .Header{
-        margin-top: 4%;
-        padding: 10% 0 1% 0;
-        text-align: center;
-        font-family: 'Lobster', cursive;
-    }
-  }
-.MyPhoto{
-    border-radius: 30%;
-    margin: 0 auto 10% auto;
-    display: block;
-}
-.Paragraph{
-    color:white;
-    text-align: left;
-}
-.Selfie{
-    padding-left: 0%;
-}
-.center{
+  .Header {
+    margin-top: 4%;
+    padding: 10% 0 1% 0;
     text-align: center;
-    margin: auto;
+    font-family: "Lobster", cursive;
+  }
 }
-.left{
-    text-align: left;
+.MyPhoto {
+  border-radius: 30%;
+  margin: 0 auto 10% auto;
+  display: block;
 }
-.margin-top-bottom{
-    margin-top: 10%;
-    margin-bottom: 10%;
+.Paragraph {
+  color: white;
+  text-align: left;
 }
-
-.img{ 
-    margin-left: 10%;
-    margin-bottom: 20%;
+.Selfie {
+  padding-left: 0%;
 }
-
-.limit-size{
-    height: 400px;
-    width: 80%;
+.center {
+  text-align: center;
+  margin: auto;
 }
-
-.limit-size2{
-    height: 200px;
-    width: 200px;
+.left {
+  text-align: left;
+  padding-left: 5%;
 }
-.font-size{
-    font-size: 30px;
-}
-.bg-black{
-    background-color: black;
-}
-.bg-gray{
-    background-color: gray;
-}
-.white-text{
-    color:white
+.margin-top-bottom {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-.padding-top{
-    padding-top: 5%;
-}
-.padding-bottom{
-    padding-bottom:5%;
-}
-.padding-all{
-    padding:3% 3% 3% 3%;
+.img {
+  margin-left: 10%;
+  margin-bottom: 20%;
 }
 
-.margin-top{
-    margin-top: 7%;
-}
-.margin-top2{
-    margin-top: 3%;
+.limit-size {
+  height: 400px;
+  width: 80%;
 }
 
-.box-shadow{
-    box-shadow: 0 5px 20px grey;
+.limit-size2 {
+  height: 200px;
+  width: 200px;
+}
+.font-size {
+  font-size: 30px;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-gray {
+  background-color: gray;
+}
+.white-text {
+  color: white;
+}
+
+.padding-top {
+  padding-top: 5%;
+}
+.padding-bottom {
+  padding-bottom: 5%;
+}
+.padding-all {
+  padding: 3% 3% 3% 3%;
+}
+
+.margin-top {
+  margin-top: 7%;
+}
+.margin-top2 {
+  margin-top: 3%;
+}
+
+.box-shadow {
+  box-shadow: 0 5px 20px grey;
 }
 
 .hvr-bounce-in {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-  }
-  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  }
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
 
-  /* Contact Me CSS */
-  input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  button[type=submit] {
-    background-color: purple;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  button[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container-2 {
-    border-radius: 5px;
-    padding: 3% 20% 3% 20%;
-  }
+/* Contact Me CSS */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type="submit"] {
+  background-color: purple;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container-2 {
+  border-radius: 5px;
+  padding: 3% 20% 3% 20%;
+}
